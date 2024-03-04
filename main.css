@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
 }
-.header{
-    
+.header__a{
+    color: rgb(72, 66, 66); 
 }
 .container{
     max-width: 1200px;
@@ -32,8 +32,9 @@ color: white;
 .hero__container{
     position: relative;
     max-width: 1200px;
-    height: 500px;
-    background-color: aqua;
+     height: 550px;
+    background-image: url(./image/Bitmap.jpg);
+    background-size: cover;
 }
 .hero__list{
     width: 1000px;
@@ -46,7 +47,7 @@ color: white;
 .hero__svg{
     position: absolute;
     right: 150px;
-    bottom: 75px;
+    bottom: 130px;
 }
 .hero__h1{
     font-family: sans-serif;
@@ -70,7 +71,7 @@ color: rgba(255, 255, 255, 1);
 .hero__svg2{
     position: absolute;
     left: 0;
-    bottom: 215px;
+    bottom: 260px;
 }
 /* ---------------------------------------------------about----------------------------------- */
 .about__p{
@@ -99,7 +100,7 @@ line-height: 28px;
 letter-spacing: -1.0714285373687744px;
 text-align: left;
 }
-li{
+.about__item{
     background-color: orange;
     width: 100px;
     height: 100px;
@@ -109,8 +110,8 @@ li{
 }
 img{
     padding-top: 0px;
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 30px;
+    margin-left: 35px;
 }
 /* ----------------------------------------------------------------end-------------------------------- */
 .end__container{
@@ -145,13 +146,9 @@ line-height: 48px;
 letter-spacing: -2.142857074737549px;
 text-align: left;
 }
-a{
-    /* width: 200px; */
-height: 80px;
-background-color: orange;
-color: white;
-border-width: 200px;
-border: 3px;
+.end__a{
+    background-color: orange;
+    text-decoration: none;
 }
 .end__svg1{
  position: absolute;
@@ -182,3 +179,86 @@ border: 3px;
     right: -100px;
     bottom: 130px;
 }
+/* -----------------------------------------------overr---------------------------------- */
+.over__container{
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(73, 85, 103, 1);
+
+}
+.over__h1{
+    font-family: sans-serif;
+    margin-top: 50px;
+    width: 400px;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: aliceblue;
+}
+.over__img{
+    margin-right:10px ;
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+.over__item{
+    text-decoration: none;
+    margin: 0;
+    padding-right: 10px;
+}
+.over__list{
+    align-items: center;
+    width: 180px;
+    height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+.over__piece{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    margin-right: 25px;
+    font-family: sans-serif;
+font-size: 10px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: -0.4464285671710968px;
+text-align: left;
+
+}
+b{
+    font-family: sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.8928571343421936px;
+text-align: left;
+
+}
+.header__container2{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(51, 58, 68, 1);
+
+}
+.header__a2{
+    color: rgba(238, 230, 230, 0.975); 
+}
+.header__img2{
+    padding-top: 0px;
+    margin-top: -10px
+}
+
