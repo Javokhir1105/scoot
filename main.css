@@ -21,12 +21,16 @@
     align-items: center;
 }
 .header__button{
+    transition: 0.3s;
     width: 180px;
 height: 53px;
 top: 22px;
 left: 1095px;
 background-color: orange;
 color: white;
+}
+.header__button:hover{
+    transform: scale(1.2);
 }
 /* --------------------------------------------hero---------------------------------------------- */
 .hero__container{
@@ -182,7 +186,7 @@ text-align: left;
 /* -----------------------------------------------overr---------------------------------- */
 .over__container{
     position: relative;
-    width: 1000px;
+    width: 1200px;
     height: 300px;
     margin-top: 200px;
     display: flex;
@@ -248,7 +252,8 @@ text-align: left;
 
 }
 .header__container2{
-    width: 1000px;
+    width: 1200px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     background: rgba(51, 58, 68, 1);
@@ -260,5 +265,8 @@ text-align: left;
 .header__img2{
     padding-top: 0px;
     margin-top: -10px
+}
+.header__img4{
+    margin-bottom: 20px;
 }
 
